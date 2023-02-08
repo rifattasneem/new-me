@@ -47,6 +47,10 @@ li{
    border: 1px solid transparent;
    border-radius: 5px;
 }
+.footer-btn{
+   background: #005FAC;
+   color: #ffffff;
+}
 
 /* Banner starts */
 .banner{
@@ -128,3 +132,29 @@ li{
    margin-bottom: 40px;
 }
 /* Always keep positive ends */
+
+/* Footer starts */
+footer{
+   padding: 100px 0;
+   background-color: rgba(21, 20, 20, 1);
+   color: #ffffff;
+}
+footer p{
+   padding-bottom: 10px;
+}
+footer .container{
+   display: flex;
+   justify-content: space-between;
+}
+footer .container .contact .social{
+   padding-top: 10px;
+}
+footer .container .newsletter form input{
+   margin: 20px 0 15px;
+   padding: 15px 20px;
+   background-color: transparent;
+   color: #ffffff;
+   border: 1px solid #FFFFFF;
+   border-radius: 8px;
+}
+/* Footer ends */
