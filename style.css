@@ -23,6 +23,13 @@ h3{
 p{
    line-height: 1.7;
 }
+ul{
+   list-style-position: inside;
+   list-style-image: url(image/icons/check.png);
+}
+li{
+   line-height: 2;
+}
 
 .container{
    width: 75%;
@@ -58,3 +65,20 @@ p{
    margin-bottom: 35px;
 }
 /* Banner ends */
+
+/* Failures start */
+.failures{
+   padding: 100px 0;
+}
+.failures .container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.failures .failure-list{
+   padding-right: 20px;
+}
+.failures .failure-list p{
+   margin-bottom: 10px;
+}
+/* Features end */
