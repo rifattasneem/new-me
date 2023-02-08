@@ -82,3 +82,20 @@ li{
    margin-bottom: 10px;
 }
 /* Features end */
+
+/* Plans start */
+.plans{
+   text-align: center;
+}
+.plans .plans-list{
+   display: flex;
+   justify-content: space-between;
+   padding: 50px 0;
+}
+.plans .plans-list .single-plan img{
+   margin-bottom: 10px;
+}
+.plans .plans-list .single-plan p{
+   font-size: 20px;
+}
+/* Plans end */
