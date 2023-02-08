@@ -32,7 +32,7 @@ li{
 }
 
 .container{
-   width: 75%;
+   width: 1100px;
    margin: 0 auto;
 }
 .container-sm{
@@ -66,9 +66,22 @@ li{
 }
 /* Banner ends */
 
+/* Stay Positive starts */
+.stay-positive{
+   padding: 120px 0 50px;
+   text-align: center;
+}
+.stay-positive iframe{
+   margin-top: 20px;
+   padding: 10px;
+   background-color: #005FAC;
+   border-radius: 8px;
+}
+/* Stay Positive ends */
+
 /* Failures start */
 .failures{
-   padding: 100px 0;
+   padding: 80px 0;
 }
 .failures .container{
    display: flex;
@@ -99,3 +112,19 @@ li{
    font-size: 20px;
 }
 /* Plans end */
+
+/* Always keep positive starts */
+.always-keep-positive .contents{
+   margin: 100px 0 130px;
+   padding: 50px 0 70px 60px;
+   background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(image/watch.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: #ffffff;
+   border-radius: 8px;
+}
+.always-keep-positive .contents h2{
+   margin-bottom: 40px;
+}
+/* Always keep positive ends */
